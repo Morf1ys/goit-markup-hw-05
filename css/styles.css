@@ -564,6 +564,8 @@ img {
   background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   left: 0;
   top: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   width: 408px;
@@ -575,8 +577,13 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
+  min-height: 584px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal {
   outline: transparent;
@@ -593,7 +600,6 @@ img {
   border-radius: 4px;
   width: 24px;
   height: 24px;
-  border: none;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -685,17 +691,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-/* .checkbox-icon {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent; 
-} */
+
 .checkbox-txt-link {
   color: var(--IRIS, #4d5ae5);
   font-family: Roboto;
