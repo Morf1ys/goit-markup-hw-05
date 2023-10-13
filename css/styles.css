@@ -489,74 +489,62 @@ img {
 .cont-foot-log {
   margin-right: 120px;
 }
-/* Subscribe-footer */
-.sub-foot {
-  display: flex;
-  flex-direction: column;
-}
-.butt-subs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--WHITE, #fff);
-  padding: 8px 24px;
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.txt-sub {
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  width: 165px;
-  height: 40px;
-  cursor: pointer;
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-/* .butt-subs:hover,
-.butt-subs:focus {
-  background: var(--OCEAN, #404bbf);
-} */
-.sub-lab {
-  color: var(--WHITE, #fff);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
   margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.em-sub-inpt {
-  padding: 8px 16px;
-  width: 264px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid var(--WHITE, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--NAVY-BLUE, #2e2f42);
-  /* margin-right: 24px; */
-}
-.em-sub-inpt::placeholder {
-  color: var(--WHITE, #fff);
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 200% */
-  letter-spacing: 0.48px;
+.footer-form {
+  margin-left: 80px;
 }
 .form-sub {
   display: flex;
-  align-items: end;
   gap: 24px;
 }
-.soc-media {
-  margin-right: 80px;
+.lab-for-sub {
 }
-
+.input-sub {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+.input-sub::placeholder {
+  color: var(--WHITE, #fff);
+}
+.bt-sub {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
 .sub-icon {
   margin-left: 16px;
 }
+/* dddddddddddddddddddddddddddddddddddddddddddddd */
 .backdrop {
   position: fixed;
   width: 100%;
